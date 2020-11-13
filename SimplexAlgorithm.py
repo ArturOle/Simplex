@@ -176,7 +176,4 @@ class Simplex:
 
 
 if __name__ == "__main__":
-     sim = Simplex([9, 12], [[5, 10, 60], [4, 4, 40]], mode="max")
-
-
-
+    sim = Simplex([9, 12], [[5, 10, 60], [4, 4, 40]], mode="min")
